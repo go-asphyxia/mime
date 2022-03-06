@@ -1,0 +1,130 @@
+package mime
+
+const (
+	//Application
+	ApplicationAtomXml     = "application/atom+xml"
+	ApplicationEDIX12      = "application/EDI-X12"
+	ApplicationEDIFACT     = "application/EDIFACT"
+	ApplicationJson        = "application/json"
+	ApplicationJavascript  = "application/javascript"
+	ApplicationOctetStream = "application/octet-stream"
+	ApplicationOgg         = "application/ogg"
+	ApplicationPdf         = "application/pdf"
+	ApplicationPostscript  = "application/postscript"
+	ApplicationSoapXml     = "application/soap+xml"
+	ApplicationFontWoff    = "application/font-woff"
+	ApplicationXhtmlXml    = "application/xhtml+xml"
+	ApplicationXmlDtd      = "application/xml-dtd"
+	ApplicationXopXml      = "application/xop+xml"
+	ApplicationZip         = "application/zip"
+	ApplicationGzip        = "application/gzip"
+	ApplicationXbittorrent = "application/x-bittorrent"
+	ApplicationXtex        = "application/x-tex"
+	ApplicationXml         = "application/xml"
+	ApplicationMsword      = "application/msword"
+
+	//audio
+	AudioBasic          = "audio/basic"
+	AudioL24            = "audio/L24"
+	AudioMp4            = "audio/mp4"
+	AudioAac            = "audio/aac"
+	AudioMpeg           = "audio/mpeg"
+	AudioOgg            = "audio/ogg"
+	AudioVorbis         = "audio/vorbis"
+	AudioXMsWma         = "audio/x-ms-wma"
+	AudioXMsWax         = "audio/x-ms-wax"
+	AudioVndRnRealaudio = "audio/vnd.rn-realaudio"
+	AudioVndWave        = "audio/vnd.wave"
+	AudioWebm           = "audio/webm"
+
+	//image
+	ImageGif             = "image/gif"
+	ImageJpeg            = "image/jpeg"
+	ImagePjpeg           = "image/pjpeg"
+	ImagePng             = "image/png"
+	ImageSvgXml          = "image/svg+xml"
+	ImageTiff            = "image/tiff"
+	IageVndMicrosoftIcon = "image/vnd.microsoft.icon"
+	ImageVndWapWbmp      = "image/vnd.wap.wbmp"
+	ImageWebp            = "image/webp"
+
+	//message
+	MessageHttp    = "message/http"
+	MessageImdnXml = "message/imdn+xml"
+	MessagePartial = "message/partial"
+	MessageRfc822  = "message/rfc822"
+
+	//model
+	ModelExample   = "model/example"
+	ModelIges      = "model/iges"
+	ModelMesh      = "model/mesh"
+	ModelVrml      = "model/vrml"
+	ModelX3dBinary = "model/x3d+binary"
+	ModelX3dVrml   = "model/x3d+vrml"
+	ModelX3dXml    = "model/x3d+xml"
+
+	//multipart
+	MultipartMixed       = "multipart/mixed"
+	MultipartAlternative = "multipart/alternative"
+	MultipartRelated     = "multipart/related"
+	MultipartFormData    = "multipart/form-data"
+	MultipartSigned      = "multipart/signed"
+	MultipartEncrypted   = "multipart/encrypted"
+
+	//text
+	TextCmd           = "text/cmd"
+	TextCss           = "text/css"
+	TextCsv           = "text/csv"
+	TextHtml          = "text/html"
+	TextJavascript    = "text/javascript"
+	TextPlain         = "text/plain"
+	TextPhp           = "text/php"
+	TextXml           = "text/xml"
+	TextMarkdown      = "text/markdown"
+	TextCacheManifest = "text/cache-manifest"
+
+	//video
+	VideoMpeg      = "video/mpeg"
+	VideoMp4       = "video/mp4"
+	VideoOgg       = "video/ogg"
+	VideoQuicktime = "video/quicktime"
+	VideoWebm      = "video/webm"
+	VideoXMsWmv    = "video/x-ms-wmv"
+	VideoXFlv      = "video/x-flv"
+	VideoXMsvideo  = "video/x-msvideo"
+	Video3gpp      = "video/3gpp"
+	Video3gpp2     = "video/3gpp2"
+
+	//vnd
+	ApplicationVndOasisOpendocumentText                                  = "application/vnd.oasis.opendocument.text"
+	ApplicationVndOasisOpendocumentSpreadsheet                           = "application/vnd.oasis.opendocument.spreadsheet"
+	ApplicationVndOasisOpendocumentPresentation                          = "application/vnd.oasis.opendocument.presentation"
+	ApplicationVndOasisOpendocumentGraphics                              = "application/vnd.oasis.opendocument.graphics"
+	ApplicationVndMsExcel                                                = "application/vnd.ms-excel"
+	ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet         = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+	ApplicationVndMsExcelSheetMacroEnabled12                             = "application/vnd.ms-excel.sheet.macroEnabled.12"
+	ApplicationVndMsPowerpoint                                           = "application/vnd.ms-powerpoint"
+	ApplicationVndOpenxmlformatsOfficedocumentPresentationmlPresentation = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+	ApplicationVndOpenxmlformatsOfficedocumentWordprocessingmlDocument   = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+	ApplicationVndMozillaXulXml                                          = "application/vnd.mozilla.xul+xml"
+	ApplicationVnd                                                       = "application/vnd"
+
+	//X untiped tipes
+	ApplicationXWwwFormUrlencoded = "application/x-www-form-urlencoded"
+	ApplicationXDvi               = "application/x-dvi"
+	ApplicationXLatex             = "application/x-latex"
+	ApplicationXFontTtf           = "application/x-font-ttf"
+	ApplicationXShockwaveFlash    = "application/x-shockwave-flash"
+	ApplicationXStuffit           = "application/x-stuffit"
+	ApplicationXRarCompressed     = "application/x-rar-compressed"
+	ApplicationXTar               = "application/x-tar"
+	TextXJqueryTmpl               = "application/x-tar"
+	ApplicationXJavascript        = "application/x-javascript"
+
+	//x-pkcs
+	applicationXPkcs12            = "application/x-pkcs12"
+	applicationXPkcs7Certificates = "application/x-pkcs7-certificates"
+	applicationXPkcs7Certreqresp  = "application/x-pkcs7-certreqresp"
+	applicationXPkcs7Mime         = "application/x-pkcs7-mime"
+	applicationXPkcs7Signature    = "application/x-pkcs7-signature"
+)
